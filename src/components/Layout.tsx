@@ -29,16 +29,11 @@ export default function Layout({ children, title, home = false }) {
           content="A fast gui autoclicker for linux."
         />
         <meta property="og:title" content="XClicker" />
-        <script
+        {/* <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7547559176584156"
           crossOrigin="anonymous"
-        ></script>
-        {/* <script>
-      if (window.location.hostname == "xclicker.pages.dev") {
-        window.location.href = "https://xclicker.xyz";
-      }
-    </script> */}
+        ></script> */}
 
         <title>{home ? `XClicker - ${title}` : `${title} - XClicker`}</title>
       </Head>
