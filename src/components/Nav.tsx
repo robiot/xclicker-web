@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useEffect, useState } from "react";
 import { GitHub, Twitter } from "@material-ui/icons";
 import { Navbar_item } from "./Navbar_item";
@@ -19,10 +20,7 @@ export default function Nav() {
         <div className="flex h-full">
           <Link href="/" passHref>
             <a className={`navbar-item ${!navbar ? "active" : ""}`}>
-              <img
-                src="https://raw.githubusercontent.com/robiot/xclicker/main/img/icon.png"
-                className="h-12 mr-2"
-              />
+              <img src="/icon.png" className="h-12 mr-2" alt="Icon" />
               <div className="text-xl font-semibold">XClicker</div>
             </a>
           </Link>
