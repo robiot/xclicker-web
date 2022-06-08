@@ -4,10 +4,6 @@ export default function Layout({ children, title, home = false }) {
   return (
     <div className="flex flex-col min-h-screen bg-custom_gray_medium text-white">
       <Head>
-        <meta charSet="utf-8" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://xclicker.xyz" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
           content="A fast gui autoclicker for linux"
@@ -29,11 +25,6 @@ export default function Layout({ children, title, home = false }) {
           content="A fast gui autoclicker for linux."
         />
         <meta property="og:title" content="XClicker" />
-        {/* <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7547559176584156"
-          crossOrigin="anonymous"
-        ></script> */}
 
         <title>{home ? `XClicker - ${title}` : `${title} - XClicker`}</title>
       </Head>
