@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 import { ArrowDownward, GitHub } from "@material-ui/icons";
@@ -46,7 +47,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-10 hidden lg:block">
-            <img src="/window.png" className="h-98 mb-14" />
+            <img src="/window.png" className="h-98 mb-14" alt="xclicker" />
           </div>
         </div>
       </div>
