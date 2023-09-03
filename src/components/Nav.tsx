@@ -38,7 +38,7 @@ export default function Nav() {
 
         <div className="flex h-full">
           <Navbar_item
-            href="https://twitter.com/notrobiot"
+            href="https://twitter.com/robiot103"
             navbar={navbar}
             external={true}
           >
