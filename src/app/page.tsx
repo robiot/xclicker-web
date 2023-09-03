@@ -1,15 +1,13 @@
+"use client";
+
 /* eslint-disable @next/next/no-img-element */
-import Layout from "../components/Layout";
-import Nav from "../components/Nav";
 import { ArrowDownward, GitHub } from "@material-ui/icons";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <Layout title="Autoclicker For Linux" home={true}>
+    <>
       <div className="bg-custom_gray">
-        <Nav />
-
         <div className="flex justify-between text-white container-xl mx-auto px-10">
           <div className="mb-10 mt-16">
             <div className="text-3xl font-semibold mb-4">
@@ -28,14 +26,12 @@ export default function Home() {
             </div>
 
             <div className="flex flex-wrap">
-              <Link href="/downloads" passHref>
-                <a className="bg-blue-400 p-3 rounded-md text-white h-full text-lg mr-3 hidden sm:block">
+              <Link href="/downloads" className="bg-blue-400 p-3 rounded-md text-white h-full text-lg mr-3 hidden sm:block">
                   <ArrowDownward width="0" />
                   <span className="ml-2">Download</span>
-                </a>
               </Link>
 
-              <a
+              <Link
                 href="https://github.com/robiot/xclicker"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,7 +39,7 @@ export default function Home() {
               >
                 <GitHub className="mb-1" width="0" />
                 <span className="ml-2">Source code</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="mt-10 hidden lg:block">
@@ -67,9 +63,9 @@ export default function Home() {
         ></iframe>
       </div>
 
-      <div className="bg-gray-800 bg-opacity-40 mt-5 text-center p-2">
+      <div className="bg-gray-800 bg-opacity-40 mt-10 text-center p-2">
         copyright © robiot
       </div>
-    </Layout>
+    </>
   );
 }
