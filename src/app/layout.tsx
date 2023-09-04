@@ -7,14 +7,14 @@ import Nav from "../components/Nav";
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
-  title: "XClicker - Autoclicker For Linux",
-  description: "A fast gui autoclicker for linux",
+  title: "XClicker - Auto Clicker For Linux",
+  description: "A fast GUI auto clicker for Linux",
   openGraph: {
     title: "Social credit",
     images: "/embed.png",
     siteName: "XCLicker",
     url: "https://xclicker.xyz",
-    description: "A fast gui autoclicker for linux"
+    description: "A fast GUI auto clicker for Linux"
   },
   other: {
     "google-site-verification": "UZOj4M_ugOJQPcEAqmfrahzsftorK6dvp0vAmcbldIg"
