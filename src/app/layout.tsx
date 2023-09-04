@@ -4,7 +4,7 @@ import "../styles/globals.css";
 import { Metadata } from "next";
 import { ReactNode } from "react";
 import Nav from "../components/Nav";
-import Script from "next/script";
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: "XClicker - Autoclicker For Linux",
@@ -34,6 +34,7 @@ const RootLayout = async ({ children }: { children: ReactNode }) => {
       <body className="flex flex-col min-h-screen bg-custom_gray_medium text-white">
         <Nav />
         {children}
+        <Analytics />
       </body>
     </html>
   );

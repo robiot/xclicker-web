@@ -30,8 +30,8 @@ export default function Nav() {
               Downloads
             </Navbar_item>
 
-            <Navbar_item href="/test" navbar={navbar}>
-              Test it
+            <Navbar_item href="/cps" navbar={navbar}>
+              CPS test
             </Navbar_item>
           </div>
         </div>

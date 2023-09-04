@@ -46,8 +46,8 @@ export default function Test() {
 
   return (
     <div className="container-xl mx-auto px-10 mt-10">
-      <div className="font-semibold text-3xl">Test it</div>
-      <div>Here you can test XClicker or just test your cps normally</div>
+      <div className="font-semibold text-3xl">CPS test</div>
+      <div>Here you can test XClicker or just test your CPS(Clicks Per Second).</div>
 
       <div className="mt-10 p-5 bg-gradient-gray-less rounded-md">
         <div
