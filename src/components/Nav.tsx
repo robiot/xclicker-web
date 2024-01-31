@@ -20,7 +20,7 @@ export default function Nav() {
     <>
       <a
         className="w-full bg-gray-800 items-center flex justify-center gap-5 pb-6 md:pb-3 p-3 flex-col text-center md:text-left md:flex-row"
-        href="https://notan.ax?rel=xclicker-banner"
+        href="https://getnotan.com?rel=xclicker-banner"
       >
         <Image src="/notan.png" alt="notan" width={231} height={69} className="h-9 w-auto"/>
 
