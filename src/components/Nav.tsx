@@ -18,22 +18,6 @@ export default function Nav() {
   });
   return (
     <>
-      <a
-        className="w-full bg-gray-800 items-center flex justify-center gap-5 pb-6 md:pb-3 p-3 flex-col text-center md:text-left md:flex-row"
-        href="https://getnotan.com?rel=xclicker-banner"
-      >
-        <Image src="/notan.png" alt="notan" width={231} height={69} className="h-9 w-auto"/>
-
-        <div className="flex flex-col">
-          <span className="text-gray-300">
-            I made a browser extension for taking <b>notes</b> for your{" "}
-            <b>current page</b> without leaving the browser{" "}
-            <span className="text-gray-300 underline">
-              <b>Check it out</b>
-            </span>
-          </span>
-        </div>
-      </a>
       <div className={`sticky top-0 z-50 navbar ${navbar ? "active" : ""}`}>
         <div className="text-white flex items-center justify-between container-xl mx-auto px-4 h-16">
           {/* Left */}
